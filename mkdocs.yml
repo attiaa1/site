@@ -1,0 +1,43 @@
+site_name: Adam's Project Documentation Site
+theme: 
+  name: material
+  nav:
+  - Home: index.md
+  - Page 1: Page1.md
+  - Page 2: Page2.md
+  - Page 3: Page3.md
+  features:
+  - navigation.tabs
+  - navigation.sections
+  - toc.integrate
+  - navigation.sticky
+  - navigation.top
+  - search.suggest
+  - search.highlight
+  - content.tabs.link
+  - content.code.annotation
+  - content.code.copy
+  language: en
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+      primary: teal
+      accent: purple
+    - scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+      primary: teal
+      accent: lime
+
+extra:
+  generator: false
+  social:
+  - icon: fontawesome/brands/github-alt
+    link: https://github.com/attiaa1
+  - icon: fontawesome/brands/linkedin
+    link: https://www.linkedin.com/in/adam-attia2/
+
+copyright: "\u00A9 2024 Adam Attia"
